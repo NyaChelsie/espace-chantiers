@@ -7,7 +7,7 @@ export class ChantierService {
   private readonly chantiers: Chantier[] = [
     {
       numero: 1,
-      titre: 'Villa R+1 « Les Acacias »',
+      titre: 'Villa R+1 « Les Acacias », house construction (maison en construction)',
       type: 'Finition',
       statut: 'terminé',
       avancement: 100,
@@ -18,7 +18,7 @@ export class ChantierService {
     },
     {
       numero: 2,
-      titre: 'Rénovation de l\'immeuble « Horizon »',
+      titre: 'Rénovation de l\'immeuble « Horizon », apartment building construction (immeuble)   ',
       type: 'Rénovation',
       statut: 'en cours',
       avancement: 60,
@@ -29,7 +29,7 @@ export class ChantierService {
     },
     {
       numero: 3,
-      titre: 'Dalot du quartier « Les Manguiers »',
+      titre: 'Dalot du quartier « Les Manguiers »,road construction (route)',
       type: 'Génie civil',
       statut: 'planifié',
       avancement: 0,
@@ -40,7 +40,7 @@ export class ChantierService {
     },
     {
       numero: 4,
-      titre: 'Clôture de la résidence « Éden »',
+      titre: 'Clôture de la résidence « Éden »  bridge construction (pont)',
       type: 'Gros œuvre',
       statut: 'en cours',
       avancement: 35,
@@ -51,7 +51,7 @@ export class ChantierService {
     },
     {
       numero: 5,
-      titre: 'Carrelage et peinture, villa « Beausoleil »',
+      titre: 'Carrelage et peinture, villa « Beausoleil » renovation interior (rénovation)',
       type: 'Finition',
       statut: 'en cours',
       avancement: 80,

@@ -3,6 +3,7 @@ import {
   provideRouter,
   Router,
   withComponentInputBinding,
+  withInMemoryScrolling,
   withNavigationErrorHandler,
 } from '@angular/router';
 import { routes } from './app.routes';
@@ -14,6 +15,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(
       routes,
       withComponentInputBinding(),
+      withInMemoryScrolling({ anchorScrolling: 'enabled' }),
       withNavigationErrorHandler(() => {
         const router = inject(Router);
         const notification = inject(NotificationService);
